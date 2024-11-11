@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>聯絡我</title>
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- 固定導覽列 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">我的作品集</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">作品</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">關於我</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">聯絡我</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 聯絡我區塊 -->
+  <section class="py-5" style="margin-top: 70px;">
+    <div class="container">
+      <h2 class="text-center">聯絡我</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">姓名</label>
+          <input type="text" class="form-control" id="name" placeholder="你的名字" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">電子郵件</label>
+          <input type="email" class="form-control" id="email" placeholder="你的電子郵件" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">訊息</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="你的訊息" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">發送訊息</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 頁腳 -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 我的作品集. 版權所有。</p>
+    <p>聯絡方式：james931121@gmail.com</p>
+    <div>
+      <a href="https://www.facebook.com/jfjsukq?__cft__[0]=AZXc65jW1pxlRu9Jw6h-eagzdQtqXoSIFRc2imDzrmR8gWmH3Cr_xuQoWGgR2dlQo2Y_2CVZYLZOiViLwl2VtkbZQJkDxaENh8xBkewZLC7ivvOZiB3Q5EqECGrhzZ6z08TA4XRJith4bqVjUMil7ooA&__tn__=-UC%2CP-R" target="_blank" class="text-white mx-2">
+        <img src="https://img.icons8.com/material-outlined/24/ffffff/facebook-new.png" alt="Facebook" />
+      </a>
+      <a href="https://line.me/ti/p/wBlCZIbpYp" target="_blank" class="text-white mx-2">
+        <img src="https://img.icons8.com/material-outlined/24/ffffff/line-me.png" alt="Line" />
+      </a>
+      <a href="https://www.instagram.com/wen_112177/" target="_blank" class="text-white mx-2">
+        <img src="https://img.icons8.com/material-outlined/24/ffffff/instagram-new.png" alt="Instagram" />
+      </a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5.3.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
